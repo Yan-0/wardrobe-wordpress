@@ -14,3 +14,69 @@
 
 2024-02-22T13:10:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\Xampp\htdocs\wardrobe\wp-admin\includes\template.php on line 12
 
+2024-02-28T13:45:27+05:45 CRITICAL syntax error, unexpected identifier "Orders’", expecting ")" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 121
+
+2024-02-28T13:45:46+05:45 CRITICAL syntax error, unexpected identifier "Addresses’", expecting ")" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 122
+
+2024-02-28T13:45:53+05:45 CRITICAL syntax error, unexpected identifier "Details’", expecting ")" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 123
+
+2024-02-28T13:45:59+05:45 CRITICAL Uncaught Error: Undefined constant "‘woocommerce_account_menu_items’" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php:128
+Stack trace:
+#0 D:\Xampp\htdocs\wardrobe\wp-settings.php(611): include()
+#1 D:\Xampp\htdocs\wardrobe\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\wardrobe\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\wardrobe\wp-blog-header.php(13): require_once('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\wardrobe\index.php(17): require('D:\\Xampp\\htdocs...')
+#5 {main}
+  thrown in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 128
+
+2024-02-28T13:46:11+05:45 CRITICAL syntax error, unexpected identifier "Details’", expecting ")" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 124
+
+2024-02-28T13:51:58+05:45 CRITICAL Uncaught Error: Undefined constant "‘woocommerce_account_menu_items’" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php:129
+Stack trace:
+#0 D:\Xampp\htdocs\wardrobe\wp-settings.php(611): include()
+#1 D:\Xampp\htdocs\wardrobe\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\wardrobe\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\wardrobe\wp-blog-header.php(13): require_once('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\wardrobe\index.php(17): require('D:\\Xampp\\htdocs...')
+#5 {main}
+  thrown in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 129
+
+2024-02-28T13:52:13+05:45 CRITICAL Uncaught Error: Undefined constant "‘woocommerce_account_menu_items’" in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php:129
+Stack trace:
+#0 D:\Xampp\htdocs\wardrobe\wp-settings.php(611): include()
+#1 D:\Xampp\htdocs\wardrobe\wp-config.php(96): require_once('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\wardrobe\wp-load.php(50): require_once('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\wardrobe\wp-blog-header.php(13): require_once('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\wardrobe\index.php(17): require('D:\\Xampp\\htdocs...')
+#5 {main}
+  thrown in D:\Xampp\htdocs\wardrobe\wp-content\themes\wc-fashion\functions.php on line 129
+
+2024-02-28T14:05:24+05:45 CRITICAL syntax error, unexpected identifier "wp_kses", expecting ")" in D:\Xampp\htdocs\wardrobe\wp-content\plugins\woocommerce\templates\myaccount\dashboard.php on line 51
+
+2024-02-28T14:06:03+05:45 CRITICAL syntax error, unexpected token "<" in D:\Xampp\htdocs\wardrobe\wp-content\plugins\woocommerce\templates\myaccount\dashboard.php on line 51
+
+2024-02-28T14:07:12+05:45 CRITICAL syntax error, unexpected token "<", expecting end of file in D:\Xampp\htdocs\wardrobe\wp-content\plugins\woocommerce\templates\myaccount\dashboard.php on line 19
+
+2024-02-28T14:19:50+05:45 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\sources\local.php:898
+Stack trace:
+#0 D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\manager.php(458): Elementor\TemplateLibrary\Source_Local->import_template('elementor-450-2...', 'D:\\Xampp\\tmp\\ph...')
+#1 D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\manager.php(667): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#2 D:\Xampp\htdocs\wardrobe\wp-includes\class-wp-hook.php(324): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#3 D:\Xampp\htdocs\wardrobe\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\Xampp\htdocs\wardrobe\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\Xampp\htdocs\wardrobe\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 898
+
+2024-02-28T14:20:11+05:45 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\sources\local.php:898
+Stack trace:
+#0 D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\manager.php(458): Elementor\TemplateLibrary\Source_Local->import_template('elementor-450-2...', 'D:\\Xampp\\tmp\\ph...')
+#1 D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\manager.php(667): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#2 D:\Xampp\htdocs\wardrobe\wp-includes\class-wp-hook.php(324): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#3 D:\Xampp\htdocs\wardrobe\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 D:\Xampp\htdocs\wardrobe\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\Xampp\htdocs\wardrobe\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in D:\Xampp\htdocs\wardrobe\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 898
+

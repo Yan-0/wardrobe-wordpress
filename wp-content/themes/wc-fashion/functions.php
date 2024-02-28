@@ -110,3 +110,22 @@ require get_theme_file_path( '/inc/tgm-plugin/tgmpa-hook.php' );
 
 // admin Info
 require get_template_directory() . '/class/admin-info.php';
+
+	
+function my_account_menu_order($menu_items){
+ 
+    $reordered_items = array(
+        'dashboard' => __('Dashboard', 'woocommerce'),
+	'orders' => __('My Orders', 'woocommerce'),
+	'edit-account' => __('Account Details', 'woocommerce'),
+        'edit-address' => __('Saved Addresses', 'woocommerce'),
+        'customer-logout' => __('Logout', 'woocommerce'),
+        
+    );
+ 
+    return $reordered_items;
+}
+ 
+add_filter('woocommerce_account_menu_items', 'my_account_menu_order');
+
+
